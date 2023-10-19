@@ -1,4 +1,4 @@
-# Fron-end: Como abrir um arquivo e converter para Base64
+# Front-end React: Como abrir um arquivo e converter para Base64
 
 Exemplo de front-end simples que abre um arquivo e exibe suas informações:
 
@@ -7,7 +7,7 @@ Exemplo de front-end simples que abre um arquivo e exibe suas informações:
 - tamanho do arquivo
 - conteúdo convertido em Base64
 
-Esse exemplo foi criado a partir do template do *create-next-app*.
+Esse exemplo foi criado usando React/Next com TypeScript, a partir do template do *create-next-app*.
 
 ```console
 $ npx creat-next-app
