@@ -4,7 +4,7 @@ import styles from './page.module.scss'
 
 export default function Home() {
   const [file, setFile] = useState<File>();
-  const [base64, setBase64] = useState<string | ArrayBuffer | null>('');
+  const [base64, setBase64] = useState<string | ArrayBuffer | null>();
 
   return (
     <main className={styles.main}>
@@ -51,7 +51,7 @@ export default function Home() {
     fileInput.accept = acceptList.join(',');
     fileInput.multiple = false;
     fileInput.style.display = 'none';
-    fileInput.addEventListener('change', function (e) {
+    fileInput.addEventListener('change', function () {
       if (this.files && this.files.length > 0) {
         setFile(this.files[0]);
         const reader = new FileReader();
