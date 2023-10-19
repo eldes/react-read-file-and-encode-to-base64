@@ -1,5 +1,7 @@
 # Front-end React: Como abrir um arquivo e converter para Base64
 
+![Prévia da interface](https://miro.medium.com/v2/resize:fit:720/format:webp/1*qkYH2zsUDMHml360rcuNDQ.png "Prévia da interface")
+
 Exemplo de front-end simples que abre um arquivo e exibe suas informações:
 
 - nome do arquivo
@@ -97,6 +99,11 @@ reader.addEventListener('load', function () {
 }, false);
 reader.readAsDataURL(this.files[0]);
 ```
+
+Obrigado pela leitura e fique a vontade para entrar em contato para quaisquer dúvidas.
+
+Esse artigo também pode ser visto em:
+https://medium.com/@eldes.com/front-end-react-como-abrir-um-arquivo-e-converter-para-base64-190063552a51
 ---
 <small>Criado em 19 de outubro de 2023.</small>
 <small>Última edição em 19 de outubro de 2023.</small>
