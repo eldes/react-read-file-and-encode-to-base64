@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  gap: 32px;
+}
+
+.openButton {
+  appearance: none;
+  padding: 16px 32px;
+  border: none;
+  background-color: #000;
+  color: #ccc;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+.fileInfoCard {
+  padding: 32px;
+  border: 1px solid #999;
+  border-radius: 16px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  .field {
+    display: flex;
+    flex-direction: column;
+
+    .label {
+      font-weight: bold;
+    }
+
+    .value {
+      font-weight: normal;
+      overflow-wrap: break-word;
+    }
+  }
+}
