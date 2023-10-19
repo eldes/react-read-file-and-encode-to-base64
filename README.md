@@ -26,6 +26,12 @@ Ao ser selecionado um arquivo, as informações sobre ele são exibidas na tela.
 Ao ser clicado o botão "Abrir", um elemento `<input>` do tipo `file` é criado dinamicamente pelo código JavaScript e adicionado no final do `<body>`.
 
 ```typescript
+const acceptList = [
+  'image/png',
+  'image/jpeg',
+  'application/zip',
+  'application/x-zip-compressed',
+];
 const  fileInput = document.createElement('input');
 fileInput.type = 'file';
 fileInput.accept = acceptList.join(',');
